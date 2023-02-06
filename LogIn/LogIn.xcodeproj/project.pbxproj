@@ -41,6 +41,11 @@
 		5B2345AA298F5B8800292D88 /* coffeepic.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2345A9298F5B8800292D88 /* coffeepic.png */; };
 		5B2345AC298F5B9700292D88 /* housepic.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2345AB298F5B9700292D88 /* housepic.png */; };
 		5B2345AE298F5CA800292D88 /* coffee.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2345AD298F5CA800292D88 /* coffee.png */; };
+		5B2345B0298F69BE00292D88 /* ViewControllerMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2345AF298F69BE00292D88 /* ViewControllerMap.swift */; };
+		5B2345B22990140300292D88 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2345B12990140300292D88 /* SplashViewController.swift */; };
+		5B2345B4299014AB00292D88 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2345B3299014AB00292D88 /* UIImageViewExtension.swift */; };
+		5B2345B6299015A600292D88 /* walkDown 2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5B2345B5299015A600292D88 /* walkDown 2.gif */; };
+		5B2345B82990162D00292D88 /* walkDown 3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5B2345B72990162D00292D88 /* walkDown 3.gif */; };
 		5BC0C2CD298EBF6A00D055F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC0C2CC298EBF6A00D055F6 /* AppDelegate.swift */; };
 		5BC0C2CF298EBF6A00D055F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC0C2CE298EBF6A00D055F6 /* SceneDelegate.swift */; };
 		5BC0C2D1298EBF6A00D055F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC0C2D0298EBF6A00D055F6 /* ViewController.swift */; };
@@ -84,6 +89,11 @@
 		5B2345A9298F5B8800292D88 /* coffeepic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coffeepic.png; sourceTree = "<group>"; };
 		5B2345AB298F5B9700292D88 /* housepic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = housepic.png; sourceTree = "<group>"; };
 		5B2345AD298F5CA800292D88 /* coffee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coffee.png; sourceTree = "<group>"; };
+		5B2345AF298F69BE00292D88 /* ViewControllerMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerMap.swift; sourceTree = "<group>"; };
+		5B2345B12990140300292D88 /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		5B2345B3299014AB00292D88 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		5B2345B5299015A600292D88 /* walkDown 2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "walkDown 2.gif"; sourceTree = "<group>"; };
+		5B2345B72990162D00292D88 /* walkDown 3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "walkDown 3.gif"; sourceTree = "<group>"; };
 		5BC0C2C9298EBF6A00D055F6 /* LogIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LogIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BC0C2CC298EBF6A00D055F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BC0C2CE298EBF6A00D055F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -184,11 +194,16 @@
 		5BC0C2CB298EBF6A00D055F6 /* LogIn */ = {
 			isa = PBXGroup;
 			children = (
+				5B2345B5299015A600292D88 /* walkDown 2.gif */,
+				5B2345B72990162D00292D88 /* walkDown 3.gif */,
+				5B2345B12990140300292D88 /* SplashViewController.swift */,
 				5BC0C2D0298EBF6A00D055F6 /* ViewController.swift */,
 				5BC0C2FF298EBFC800D055F6 /* SignUpViewController.swift */,
 				5BC0C301298EBFDE00D055F6 /* LoginViewController.swift */,
 				5BC0C303298EBFED00D055F6 /* HomeViewController.swift */,
+				5B2345B3299014AB00292D88 /* UIImageViewExtension.swift */,
 				5BC0C2CC298EBF6A00D055F6 /* AppDelegate.swift */,
+				5B2345AF298F69BE00292D88 /* ViewControllerMap.swift */,
 				5BC0C2CE298EBF6A00D055F6 /* SceneDelegate.swift */,
 				5BC0C2D2298EBF6A00D055F6 /* Main.storyboard */,
 				5BC0C2D8298EBF6A00D055F6 /* Assets.xcassets */,
@@ -385,6 +400,8 @@
 				5BC0C2D4298EBF6A00D055F6 /* Main.storyboard in Resources */,
 				5B2345A8298F5B3600292D88 /* pfpmag.net.png in Resources */,
 				5B2345AC298F5B9700292D88 /* housepic.png in Resources */,
+				5B2345B82990162D00292D88 /* walkDown 3.gif in Resources */,
+				5B2345B6299015A600292D88 /* walkDown 2.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,13 +497,16 @@
 			files = (
 				5BC0C302298EBFDE00D055F6 /* LoginViewController.swift in Sources */,
 				5BC0C2D1298EBF6A00D055F6 /* ViewController.swift in Sources */,
+				5B2345B4299014AB00292D88 /* UIImageViewExtension.swift in Sources */,
 				5BC0C2CD298EBF6A00D055F6 /* AppDelegate.swift in Sources */,
+				5B2345B0298F69BE00292D88 /* ViewControllerMap.swift in Sources */,
 				5BC0C2CF298EBF6A00D055F6 /* SceneDelegate.swift in Sources */,
 				5B2345A4298F4AE900292D88 /* GetDataTableViewController.swift in Sources */,
 				5BC0C2D7298EBF6A00D055F6 /* LogIn.xcdatamodeld in Sources */,
 				5BC0C304298EBFED00D055F6 /* HomeViewController.swift in Sources */,
 				5B2345A0298F3ECB00292D88 /* User.swift in Sources */,
 				5BC0C300298EBFC800D055F6 /* SignUpViewController.swift in Sources */,
+				5B2345B22990140300292D88 /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -667,8 +687,9 @@
 				DEVELOPMENT_TEAM = 4F9U97VJUS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LogIn/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow to see current location.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -696,8 +717,9 @@
 				DEVELOPMENT_TEAM = 4F9U97VJUS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LogIn/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow to see current location.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
